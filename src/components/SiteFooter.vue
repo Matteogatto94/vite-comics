@@ -24,9 +24,20 @@ export default {
 
     <div class="footer_down">
         <div class="container">
-            <button type="button" class="btn btn-outline-light py-3">
-                SIGN-UP NOW!
-            </button>
+            <div class="row">
+                <div class="col">
+                    <button type="button" class="btn btn-outline-light">SIGN-UP NOW!</button>
+                </div>
+                <div class="col">
+                    <span class="px-3">FOLLOW US</span>
+                    <img src="../assets/img/footer-facebook.png" alt="">
+                    <img src="../assets/img/footer-twitter.png" alt="">
+                    <img src="../assets/img/footer-youtube.png" alt="">
+                    <img src="../assets/img/footer-pinterest.png" alt="">
+                    <img src="../assets/img/footer-periscope.png" alt="">
+
+                </div>
+            </div>
         </div>
 
     </div>
