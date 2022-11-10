@@ -1,11 +1,33 @@
 @use './variables' as *;
 
-.footer_down {
+.contacts {
     background-color: $bg-footer;
     height: 100px;
-    padding: 1rem;
+    padding: 2rem 0;
+    align-items: center;
 }
 
 #site_footer {
     background-image: url(../img/footer-bg.jpg);
+}
+
+.follow_us {
+    color: #0282F9;
+}
+
+.footer_up {
+    padding: 5rem 0;
+
+    h3 {
+        color: white;
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 0;
+
+        li {
+            color: lightgray;
+        }
+    }
 }
