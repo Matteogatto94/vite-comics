@@ -1,0 +1,11 @@
+@use './variables' as *;
+
+.footer_down {
+    background-color: $bg-footer;
+    height: 100px;
+    padding: 1rem;
+}
+
+#site_footer {
+    background-image: url(../img/footer-bg.jpg);
+}

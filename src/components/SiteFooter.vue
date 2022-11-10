@@ -1,3 +1,4 @@
+
 <script>
 export default {
     name: 'SiteFooter'
@@ -7,13 +8,28 @@ export default {
 <template>
 
     <footer id="site_footer">
-        <div class="footer_up">
-            <div class="title">
-
+        <div class="container">
+            <div class="footer_up">
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col">
+                        <img src="../assets/img/dc-logo-bg.png" alt="">
+                    </div>
+                </div>
             </div>
+
         </div>
-        <div class="footer_down"></div>
+
     </footer>
+
+    <div class="footer_down">
+        <div class="container">
+            <button type="button" class="btn btn-outline-light py-3">
+                SIGN-UP NOW!
+            </button>
+        </div>
+
+    </div>
 
 </template>
 
