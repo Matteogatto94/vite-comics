@@ -7,7 +7,7 @@ export default {
 <template>
 
     <main id="site_main">
-
+        <h2> -->Content goes here </h2>
     </main>
 
 </template>
