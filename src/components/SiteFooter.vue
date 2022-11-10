@@ -7,7 +7,11 @@ export default {
 <template>
 
     <footer id="site_footer">
-        <div class="footer_up"></div>
+        <div class="footer_up">
+            <div class="title">
+
+            </div>
+        </div>
         <div class="footer_down"></div>
     </footer>
 

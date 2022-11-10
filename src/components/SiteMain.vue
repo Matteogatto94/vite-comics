@@ -7,7 +7,10 @@ export default {
 <template>
 
     <main id="site_main">
-        <h2> -->Content goes here </h2>
+        <div class="container">
+            <h2> -->Content goes here </h2>
+        </div>
+
     </main>
 
 </template>

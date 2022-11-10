@@ -1,5 +1,4 @@
 <script>
-import { isTemplateNode } from '@vue/compiler-core';
 
 export default {
     name: 'SiteHeader',
