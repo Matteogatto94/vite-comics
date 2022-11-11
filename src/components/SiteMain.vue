@@ -1,11 +1,13 @@
 <script>
+import Jumbotron from './Jumbotron.vue';
 import Banner from './Banner.vue';
 import ComicsList from './ComicsList.vue';
 export default {
     name: 'SiteMain',
     components: {
         ComicsList,
-        Banner
+        Banner,
+        Jumbotron
     }
 }
 </script>
@@ -13,7 +15,7 @@ export default {
 <template>
 
     <main id="site_main">
-
+        <Jumbotron></Jumbotron>
         <ComicsList></ComicsList>
         <Banner></Banner>
 
@@ -26,7 +28,5 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-.icon {
-    background-color: #0282F9;
-}
+
 </style>

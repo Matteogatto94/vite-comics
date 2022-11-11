@@ -41,12 +41,16 @@ export default {
 
     .series {
         background-color: #0282F9;
-        padding: 1rem;
+        padding: 1rem 3rem;
         font-weight: bold;
 
         &:hover {
             cursor: pointer;
         }
+    }
+
+    .comics {
+        margin-top: 1rem;
     }
 
 
