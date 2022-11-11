@@ -2,6 +2,7 @@
 @use '../partials/main';
 @use '../partials/footer';
 @use "/node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
 * {
     margin: 0;
@@ -15,4 +16,5 @@ img {
 
 body {
     background-color: black;
+    font-family: 'Open Sans', sans-serif;
 }
