@@ -1,8 +1,9 @@
 <script>
+import Comic from './Comic.vue';
 import Comics from '../data/comics.js';
 export default {
     components: {
-
+        Comic
     },
     data() {
         return {
@@ -10,18 +11,15 @@ export default {
         }
     }
 }
-
 </script>
 
 
 <template>
 
     <div class="container">
-        <div class="row">
-            <div class="col" v-for="comics in comic">
-                <img :src="comics.thumb" alt="Action Comics">
-                <p>{{ comics.series }}</p>
-            </div>
+        <span>CURRENT SERIES</span>
+        <div class="comics row row-cols-md-6 g-4">
+            <Comic v-for="comics in comic" :image="comics.thumb" :title="comics.series"></Comic>
         </div>
     </div>
 
