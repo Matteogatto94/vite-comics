@@ -17,14 +17,38 @@ export default {
 <template>
 
     <div class="container">
-        <span>CURRENT SERIES</span>
+        <span class="series">CURRENT SERIES</span>
         <div class="comics row row-cols-md-6 g-4">
             <Comic v-for="comics in comic" :image="comics.thumb" :title="comics.series"></Comic>
         </div>
+        <div class="button_load d-flex justify-content-center py-3">
+            <span class="loading">LOAD MORE</span>
+        </div>
+
     </div>
 
 </template>
 
 <style lang="scss">
+.container {
 
+    .loading {
+        background-color: #0282F9;
+        padding: 0.75rem 5rem;
+        font-weight: bold;
+    }
+
+
+    .series {
+        background-color: #0282F9;
+        padding: 1rem;
+        font-weight: bold;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+
+}
 </style>

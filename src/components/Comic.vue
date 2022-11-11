@@ -20,5 +20,12 @@ export default {
 </template>
 
 <style lang="scss">
+.comics {
 
+    h4 {
+        padding: 1rem;
+        text-align: center;
+        font-size: 20px;
+    }
+}
 </style>

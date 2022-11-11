@@ -114,7 +114,7 @@ export default {
 
     <section class="contacts">
         <div class="container">
-            <div class="row">
+            <div class="row d-flex">
                 <div class="col">
                     <button type="button" class="btn btn-outline-light">SIGN-UP NOW!</button>
                 </div>
