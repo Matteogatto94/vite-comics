@@ -1,11 +1,21 @@
-.navbar_right {
-    a {
-        text-decoration: none;
-        color: black;
-        padding: 1rem;
+header {
+    background-color: white;
 
-        &:hover {
-            color: blue;
+    .navbar_right {
+        a {
+            text-decoration: none;
+            color: black;
+            padding: 1rem;
+            text-transform: uppercase;
+
+            &:hover {
+                color: blue;
+                border-bottom: solid 2px blue;
+            }
+
+            &.active {
+                border-bottom: solid 2px blue;
+            }
         }
     }
 }

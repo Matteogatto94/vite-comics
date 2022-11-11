@@ -9,6 +9,9 @@
 
 #site_footer {
     background-image: url(../img/footer-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .follow_us {
@@ -27,7 +30,17 @@
         padding-left: 0;
 
         li {
-            color: lightgray;
+
+            a {
+                text-decoration: none;
+                color: lightgray;
+            }
         }
     }
+}
+
+.bg {
+    background-image: url('../img/dc-logo-bg.png');
+    background-position: right center;
+    background-repeat: no-repeat;
 }

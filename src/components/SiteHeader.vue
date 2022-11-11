@@ -61,7 +61,7 @@ export default {
                 </div>
 
                 <div class="navbar_right">
-                    <a :href="item.href" v-for="item in menu">
+                    <a :href="item.href" v-for="item in menu" :class="item.text === 'Comics' ? 'active' : ''">
                         {{ item.text }}
                     </a>
                 </div>
